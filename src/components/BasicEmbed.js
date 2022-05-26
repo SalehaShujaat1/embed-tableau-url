@@ -16,7 +16,7 @@ function BasicEmbed(props) {
 
   return (
     <div>
-      <h1>{props.location.state.title}</h1>
+      {/* <h1>{props.location.state.title}</h1> */}
       <div style={setVizStyle} ref={ref} />
     </div>
   );
